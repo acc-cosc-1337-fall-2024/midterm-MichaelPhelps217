@@ -1,6 +1,6 @@
 #include "question3.h"
 
-
+/*
 bool validate_dice_roll(int random_num)
 {
 	if(random_num > 0 && random_num <= 6)
@@ -9,11 +9,13 @@ bool validate_dice_roll(int random_num)
 	}
     return false;
 }
+*/
 
 int main()
 {
     char option = 'q';
 
+    /*
     srand(time(0));
     for(int i = 10; i >= 1; i--)
     {
@@ -23,7 +25,12 @@ int main()
 
     std::cout<<"\nAll test rolls are valid!\n";
     std::cout<<"\n--------------------------\n";
-    std::cout<<"\nFirst dice roll: ";
+    */
+
+    std::cout<<"----------------------------------\n";
+    std::cout<<"This program will roll a 1d6 dice\n";
+    std::cout<<"----------------------------------\n";
+    std::cout<<"First dice roll: ";
     
     do
     {
@@ -32,7 +39,7 @@ int main()
         {
             std::cout<<roll_die()<<"\n";
         }
-        std::cout<<"\nContinue and roll dice (y/n)? ";
+        std::cout<<"\nRoll dice again(y/n)? ";
 		std::cin>>option;
     } while(option == 'y');
 }
