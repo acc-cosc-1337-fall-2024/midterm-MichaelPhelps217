@@ -25,5 +25,5 @@ TEST_CASE("get_fib_sequence test3")
 }
 TEST_CASE("get_fib_sequence test4")
 {
-	REQUIRE(get_fib_sequence(12) == "0 1 1 2 3 5 8 13 21 34 55 89");
+	REQUIRE(get_fib_sequence(13) == "0 1 1 2 3 5 8 13 21 34 55 89 144");
 }

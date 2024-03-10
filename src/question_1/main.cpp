@@ -18,7 +18,6 @@ bool validate_user_input(int user_input)
     return false;
 }
 
-//MAKE SURE TO MAKE THE PROGRAM LOOPS UNTIL THE USER WANTS TO EXIT
 int main()
 {
 	char option = 'q';
