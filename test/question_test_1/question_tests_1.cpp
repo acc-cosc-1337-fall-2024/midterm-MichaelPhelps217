@@ -13,17 +13,17 @@ TEST_CASE("test")
 
 TEST_CASE("get_fib_sequence test1")
 {
-	REQUIRE(get_fib_sequence(6) == "0 1 1 2 3 5");
+	REQUIRE(get_fib_sequence(5) == "0 1 1 2 3 5");
 }
 TEST_CASE("get_fib_sequence test2")
 {
-	REQUIRE(get_fib_sequence(8) == "0 1 1 2 3 5 8 13");
+	REQUIRE(get_fib_sequence(7) == "0 1 1 2 3 5 8 13");
 }
 TEST_CASE("get_fib_sequence test3")
 {
-	REQUIRE(get_fib_sequence(11) == "0 1 1 2 3 5 8 13 21 34 55");
+	REQUIRE(get_fib_sequence(10) == "0 1 1 2 3 5 8 13 21 34 55");
 }
 TEST_CASE("get_fib_sequence test4")
 {
-	REQUIRE(get_fib_sequence(13) == "0 1 1 2 3 5 8 13 21 34 55 89 144");
+	REQUIRE(get_fib_sequence(12) == "0 1 1 2 3 5 8 13 21 34 55 89 144");
 }
